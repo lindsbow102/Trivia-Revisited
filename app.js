@@ -185,7 +185,7 @@ let game = {
   result: function() {
     clearInterval(timer);
     $("#inner-container h2").remove();
-
+    $("#inner-container").addClass("center");
     $("#inner-container").html("<h2>All Done!</h2>");
     $("#inner-container").append("<h3>Correct Answers: " + this.correct + "</h3>");
     $("#inner-container").append(

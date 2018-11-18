@@ -1,0 +1,43 @@
+body {
+    background-color: #f0f0f0;
+    color: #555;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#title {
+    font-size: 35px;
+    text-align: center;
+}
+
+#inner-container {
+    transition: all .2sec;
+}
+
+#start, 
+#done {
+    border: none;
+    border-radius: 10%;
+    background-color: lightseagreen;
+    box-shadow: 2px 2px 2px #999;
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: .3rem;
+    margin: 2% 9% 2% 9%;
+    padding: 2%;
+    text-align: center;
+    width: 80%;    
+}
+
+#start:hover,
+#done:hover {
+    transform: scale(1.1);
+}
+
+input {
+    margin-left: 1%;
+}
+
+.center {
+    text-align: center;
+}
