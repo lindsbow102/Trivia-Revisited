@@ -1,32 +1,40 @@
 body {
-    background-color: #f0f0f0;
+    background-image: url("images/background.png");
+    background-size: cover;
     color: #555;
     font-family: 'Quicksand', sans-serif;
 }
 
 #title {
-    font-size: 35px;
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
     text-align: center;
 }
 
 #inner-container {
     transition: all .2sec;
+    background-color: white;
+    border-radius: 25%;
+    margin: 0 9% 0 9%;
+    padding: 1%;
+    width: 80%;
 }
 
 #start, 
 #done {
     border: none;
-    border-radius: 10%;
-    background-color: lightseagreen;
+    border-radius: 20%;
+    background-color: royalblue;
     box-shadow: 2px 2px 2px #999;
     color: whitesmoke;
     font-size: 24px;
     font-weight: 300;
     letter-spacing: .3rem;
-    margin: 2% 9% 2% 9%;
+    margin: 2% 14% 2% 14%;
     padding: 2%;
     text-align: center;
-    width: 80%;    
+    width: 70%;    
 }
 
 #start:hover,

@@ -91,7 +91,8 @@ let game = {
 
     // Loop through questions array and display its data on the screen
     for (var i = 0; i < questions.length; i++) {
-        $("#inner-container").append("<h2>" + questions[i].question + "</h2>");
+        const questionTitle = $("#inner-container").append("<h2>" + questions[i].question + "</h2>");
+        questionTitle.addClass("center");
         for (var j = 0; j < questions[i].choices.length; j++) {
           $("#inner-container").append("<input type='radio' name='question-" + i +
           "' value='" + questions[i].choices[j] + "''>" + questions[i].choices[j]);
