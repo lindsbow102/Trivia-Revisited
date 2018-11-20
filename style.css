@@ -15,7 +15,7 @@ body {
 
 #inner-container {
     transition: all .2sec;
-    background-color: white;
+    background-color: #DCDCDC;
     border-radius: 25%;
     margin: 0 9% 0 9%;
     padding: 1%;
